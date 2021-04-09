@@ -1,0 +1,5 @@
+product = input("write name of the product: ")
+price = float(input("write price of the product: "))
+amount = int(input("write the amount: "))
+print("details od the sale: name product ->",product," unit price ", price," amount ", amount, " total cost ", (price*amount))
+input()

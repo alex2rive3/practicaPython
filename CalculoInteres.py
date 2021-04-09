@@ -1,0 +1,5 @@
+print("Bienvenido al Banco de Sueños!!!")
+deposito = float(input("Por Faavor indique la cantidad que desea depositar para calcular los interes que generaran a su favor: "))
+print("Tras el primer año el dinero de su cuenta ascenderá a ", "%.2f" % (deposito+deposito*0.04))
+print("Tras el segundo año el dinero de su cuenta ascenderá a ", "%.2f" % (deposito+deposito*0.08))
+print("Tras el tercer año el dinero de su cuenta ascenderá a ", "%.2f" % (deposito+deposito*0.12))
