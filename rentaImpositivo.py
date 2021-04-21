@@ -1,3 +1,4 @@
+print("Bienvenido!!!")
 renta = int(input("ingrese su renta anual por favor: "))
 if renta < 10000:
     print("la renta impositiva que te corresponde es del 5%")
